@@ -1,0 +1,13 @@
+body{margin:0;font-family:微软雅黑;background:#eef3ff}
+.header{background:#0d47a1;color:#fff;padding:16px;text-align:center;font-size:22px}
+.container{display:flex;height:calc(100vh - 64px)}
+.sidebar{width:25%;background:#1565c0}
+.menu{list-style:none;padding:0;margin:0}
+.menu li{color:#fff;padding:15px;cursor:pointer;border-bottom:1px solid #0d47a1;transition:.3s}
+.menu li:hover{background:#ff5252}
+.content{width:75%;padding:25px;background:#fff;overflow:auto}
+.preview{width:220px;margin-top:15px}
+.works{padding:20px}
+.work{display:flex;background:#fff;margin-bottom:15px;padding:15px;border-left:6px solid #ff5252}
+.work img{width:130px;height:180px;object-fit:cover;margin-right:15px;background:#ccc}
+a{color:#0d47a1;text-decoration:none}
